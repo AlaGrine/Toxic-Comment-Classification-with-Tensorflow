@@ -1,0 +1,5 @@
+index,ROC
+model1_Dense_lossD,0.9056339119661172
+model1_Dense_lossD_aug,0.9228546745858517
+model1_Dense_lossC,0.9616960015365251
+model1_Dense_lossC_aug,0.9577136925070807

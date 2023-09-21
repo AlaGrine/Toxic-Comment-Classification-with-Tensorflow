@@ -1,0 +1,5 @@
+index,ROC
+model4_Conv1D_lossD,0.9751394302145584
+model4_Conv1D_lossD_aug,0.9736014835478931
+model4_Conv1D_lossC,0.9723473709327515
+model4_Conv1D_lossC_aug,0.9693932287882372

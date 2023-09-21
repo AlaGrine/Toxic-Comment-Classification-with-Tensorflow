@@ -1,0 +1,5 @@
+index,ROC
+model2_LSTM_lossD_tanh,0.9758675358067357
+model2_LSTM_lossD_aug_tanh,0.9741172621781093
+model2_LSTM_lossC_tanh,0.9745861919792136
+model2_LSTM_lossC_aug_tanh,0.9737075650219246

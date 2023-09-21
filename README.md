@@ -59,10 +59,10 @@ To deal with class imbalance, we:
 We used `Tensorflow` to build the following model structure:
 
 ```
-Input (text) -> TextVectorization -> Embedding -> Layers -> Output (sigmoid)
+Input (text) -> TextVectorization -> Embedding -> custom_Layers -> Output (sigmoid)
 ```
 
-where the `Layers` component is either Dense Layer, LSTM, GRU or 1D Convolutional Neural Network.
+where the `custom_Layers` component is either Dense Layer, LSTM, GRU or 1D Convolutional Neural Network.
 
 ## Results<a name="results"></a>
 
@@ -70,7 +70,7 @@ where the `Layers` component is either Dense Layer, LSTM, GRU or 1D Convolutiona
   <img src="https://github.com/AlaGrine/Toxic-Comment-Classification-with-Tensorflow/blob/main/stats/AUC_dense_model_.png" >
 </div>
 
-Applying our `custom binary cross-entropy loss function with class weights` and `text data augmentation` (using googletrans API) resulted in a **3%** increase in AUC for the dense model.
+Applying our `custom binary cross-entropy loss function with class weights` and `text data augmentation` (using googletrans API) resulted in a **4%** increase in AUC for the dense model.
 
 Both techniques were used for the other models.
 
@@ -78,7 +78,7 @@ Both techniques were used for the other models.
   <img src="https://github.com/AlaGrine/Toxic-Comment-Classification-with-Tensorflow/blob/main/stats/AUC_per_model_.png" >
 </div>
 
-The `GRU` model performed best with an AUC of **97.4%**, **0.1%** ahead of the `LSTM` model.
+The `GRU` model performed best with an AUC of **97.7%**, **0.3%** ahead of the `LSTM` model.
 
 ## Improvements <a name="Improvements"></a>
 

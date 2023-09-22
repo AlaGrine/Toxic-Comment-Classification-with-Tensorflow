@@ -3,7 +3,7 @@
 ## NLP multi-label classification using Tensorflow
 
 <div align="center">
-  <img src="https://github.com/AlaGrine/Toxic-Comment-Classification-with-Tensorflow/blob/main/stats/toxic_comments_freepik.png" >
+  <img src="https://github.com/AlaGrine/Toxic-Comment-Classification-with-Tensorflow/blob/main/stats/toxic_comments_freepik.jpg" >
 </div>
 
 ### Table of Contents
